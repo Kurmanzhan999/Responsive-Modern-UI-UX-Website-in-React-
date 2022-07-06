@@ -26,6 +26,10 @@
   display: flex;
   flex-direction: row;
 }
+a:hover {
+  transform: scale(2);
+  transform: translate(0, 50px);
+}
 
 .gpt3__navbar-sign {
   display: flex;
@@ -98,7 +102,11 @@
 .gpt3__navbar-menu_container-links-sign {
   display: none;
 }
-
+.pt3__navbar-menu_container-links:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
+  text-decoration-thickness: 1.5px;
+}
 @media screen and (max-width: 1050px) {
   .gpt3__navbar-links_container {
     display: none;
